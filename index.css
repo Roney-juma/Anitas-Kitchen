@@ -1,0 +1,7 @@
+*{
+    background-color: #F15A29;
+}
+ul{
+    flex: content;
+    float: right;
+}
