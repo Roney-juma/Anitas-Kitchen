@@ -206,6 +206,7 @@ ul{
       width: 1200px;
       justify-content: space-around;
       text-align: center;
+      font-size: medium;
       display: flex;
   }
   #about{
