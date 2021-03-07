@@ -57,24 +57,33 @@ ul{
 }
 #st{
     background-color: rgb(202, 194, 194);
+    width: 300px;
+    height:70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-size: x-large;
+    padding-top: 50px;
 }
 
 .food-description{
     margin-bottom: 100px;
 }
-
-.h-hours{
-    width: 300px;
-    height:120px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 .s-hours{
     display: flex;
     flex-direction: column;
+    color: white;
+    font-size: x-large;
 }
 #rj{
     background-color: #F15A29;
+    width: 300px;
+    height:70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    font-size: x-large;
+    padding-top: 50px;
 }
 #br{
     background-image: url("./Images/breakfast.jpg");
@@ -100,7 +109,6 @@ ul{
     float: left;
     height: 150px;
     width: 400px;
-    margin: 0 10px 0 0;
 }
 .content>p{
     text-align: justify;
@@ -121,6 +129,7 @@ ul{
 .drinks{
       display: flex;
       flex-direction: row;
+      margin: 0 250px 0 250px;
   }
 
 .drink-text{
@@ -128,12 +137,14 @@ ul{
   }
   #drink{
       display: flex;
+      float: right;
   }
 
 .foods{
       display: flex;
       flex-direction: column;
-      margin-left: -4px;
+      box-shadow: whitesmoke;
+      padding: 5px;
       
   }
 
@@ -220,6 +231,7 @@ ul{
   }
   #customer{
       float: left;
+      border-left-color: lightslategray;
   }
   #customer h2{
       color: #F15A29;
