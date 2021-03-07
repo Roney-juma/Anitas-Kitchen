@@ -212,6 +212,12 @@ ul{
   #about{
       float: right;
   }
+  #about h2{
+      color: #F15A29;
+  }
   #customer{
       float: left;
+  }
+  #customer h2{
+      color: #F15A29;
   }
