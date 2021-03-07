@@ -204,11 +204,14 @@ ul{
       border: solid;
       height: 250px;
       width: 1200px;
-      justify-content: space-around;
       text-align: center;
       font-size: medium;
       display: flex;
+      justify-content: center;
   }
   #about{
       float: right;
+  }
+  #customer{
+      float: left;
   }
