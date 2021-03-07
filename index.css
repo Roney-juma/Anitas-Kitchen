@@ -112,13 +112,12 @@ ul{
     display: column;
 }
     
-.content {
+.content{
     display: flex;
     flex-direction: row;
     margin: 0 0 0 0;
     justify-content: center;
-    /*box-shadow: 0 0 20px 0px #888888;*/
-  }
+}
 .drinks{
       display: flex;
       flex-direction: row;
@@ -129,8 +128,6 @@ ul{
   }
   #drink{
       display: flex;
-      flex-direction: row;
-      float: right;
   }
 
 .foods{
@@ -151,10 +148,11 @@ ul{
       padding-bottom: 180px;
       margin-top: 100px;
   } */
-.just{
+   .just{
       display: flex;
       flex-direction: row;
-      margin-left: 200px;
+      margin-left: 250px;
+      margin-bottom: 100px;
   }
   .just button{
       height: 60px;
@@ -162,8 +160,8 @@ ul{
   }
   .dr{
       background-image: url("Images/foodsBg.jpg");
-      margin-left: 120px;
-      margin-bottom: 300px;
+      /* margin-left: 120px; */
+      /* margin-bottom: 300px; */
       background-color: white;
       margin-top:0;
   }
