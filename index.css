@@ -156,7 +156,9 @@ ul{
   }
   .just button{
       height: 60px;
-      margin-top: 70px;
+      margin-top: 40px;
+      color: #F15A29;
+      font-size: x-large;
   }
 .dr{
       background-image: url("Images/foodsBg.jpg");
@@ -197,4 +199,15 @@ ul{
       display: flex;
       flex-direction: row;
       
+  }
+  .people{
+      border: solid;
+      height: 250px;
+      width: 1200px;
+      justify-content: space-around;
+      text-align: center;
+      display: flex;
+  }
+  #about{
+      float: right;
   }
