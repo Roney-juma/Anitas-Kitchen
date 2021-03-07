@@ -1,7 +1,9 @@
 body{
     margin: 50px auto 50px auto;
-    width: 60%;display: flex;
+    width: 80%;display: flex;
     flex-direction: column;
+
+    margin-left: 200px;
     
     
 }
@@ -22,13 +24,16 @@ header{
     font-size: 1.3em;
     text-align: center;
 }
-.list{
-    text-align: flex;
-    flex-direction: column;
+.mt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    
 }
-.list>ul>li>p{
-    height: 60px;
-    width: 200px;
+.list>ul>{
+    height: 80px;
+    width: 300px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1em;
     margin: 0;
@@ -37,17 +42,33 @@ header{
 ul{
     display: inline-block;
 }
-ul>li{
+.supper{
     height: 120px;
-    width: 200px;
+    width: 500px;
     color: white;
     font-size: x-large;
     text-align: center;
     display: inline-block;
     flex-direction: column;
+    padding-top: 120px;
 }
 #st{
     background-color: rgb(202, 194, 194);
+}
+
+.food-description{
+    margin-bottom: 100px;
+}
+
+.h-hours{
+    width: 300px;
+    height:120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.s-hours{
+    display: flex;
+    flex-direction: column;
 }
 #rj{
     background-color: #F15A29;
@@ -89,11 +110,82 @@ ul>li{
 }
     
 .content {
+    display: flex;
+    flex-direction: row;
     margin: 0 0 0 0;
     justify-content: center;
     /*box-shadow: 0 0 20px 0px #888888;*/
   }
-  #drink>img{
+  #drink{
+    display: flex;
+    flex-direction: row;
+    clear: both;
+  }
+
+  .drinks{
+      display: flex;
+      flex-direction: row;
+    
+  }
+
+  .drink-text{
+      float: left;
+  }
+
+  .foods{
+      display: flex;
+      flex-direction: column;
+      margin-left: -4px;
+      
+  }
+
+  .food-text{
       float: right;
-      border: transparent;
+  }
+  }
+  .display{
+      background-image: url('./Images/foodsBg.jpg');
+      height: 450px;
+      font-size: 1em;
+      padding-top: 80px;
+      padding-bottom: 180px;
+      margin-top: 100px;
+  }
+  .just{
+      display: flex;
+      flex-direction: row;
+  }
+  .just button{
+      height: 60px;
+      margin-top: 70px;
+  }
+  .dr{
+      margin-left: 120px;
+      margin-bottom: 300px;
+      background-color: white;
+      margin-top:0;
+  }
+  .b1{
+      margin-right: 10px;
+  }
+  .b2{
+      margin-left: 10px;
+  }
+  .b1::before{
+      content: '<';
+  }
+  .b2::before{
+      content: '>';
+  }
+  .lu li>a{
+      text-decoration: none;
+      color: grey;
+      padding: 10px;
+  }
+  .lu li{
+      border: 1px solid black;
+      padding: 5px;
+      margin-left: -4px;
+
+      height: 30px;
   }
