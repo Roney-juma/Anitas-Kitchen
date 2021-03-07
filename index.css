@@ -115,8 +115,9 @@ ul{
 .content{
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 0;
-    justify-content: center;
+    /* margin: 0 0 0 0; */
+    justify-content: space-between;
+    text-align: center;
 }
 .drinks{
       display: flex;
@@ -220,4 +221,14 @@ ul{
   }
   #customer h2{
       color: #F15A29;
+  }
+  .footer1{
+      background-color: #F15A29;
+      height: 200px;
+      text-align: center;
+      padding-top: 50px;
+  }
+  #logowhite{
+      background-image: url("./Images/subscribe.jpg");
+      height: 200px;
   }
