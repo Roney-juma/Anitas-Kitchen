@@ -250,3 +250,7 @@ ul{
       padding-top: 50px;
       text-align: center;
   }
+  #size{
+      font-size: large;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
